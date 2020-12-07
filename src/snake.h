@@ -3,7 +3,8 @@
 
 #include <vector>
 #include "SDL.h"
-
+#include "wall.h"
+class Walls;
 class Snake {
  public:
   enum class Direction { kUp, kDown, kLeft, kRight };
@@ -15,7 +16,7 @@ class Snake {
         head_y(grid_height / 2) {}
 
   void Update();
-
+  void Update(Walls &wall);
   void GrowBody();
   bool SnakeCell(int x, int y);
 
@@ -27,6 +28,7 @@ class Snake {
   float head_x;
   float head_y;
   std::vector<SDL_Point> body;
+
 
  private:
   void UpdateHead();

@@ -18,5 +18,6 @@ int main() {
   std::cout << "Game has terminated successfully!\n";
   std::cout << "Score: " << game.GetScore() << "\n";
   std::cout << "Size: " << game.GetSize() << "\n";
+  std::cout << "Walls:" << game.GetWall() << "\n";
   return 0;
 }
