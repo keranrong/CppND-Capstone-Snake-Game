@@ -4,7 +4,7 @@ This is a modified repo for the Capstone project in the [Udacity C++ Nanodegree 
 
 <img src="SnakeGame_anno.JPG.png" width="350"/>
 
-In this fork version of the Snake Game Capstone project, I added wall blockers: the snake will die when it hit the walls. There is no wall at the beginning of the game and the number of wall blockers will be increased by 1 whenever the snake gains extra 5 scores.
+In this fork version of the Snake Game Capstone project, I added wall blockers: the snake will die when it hit the walls. There is no wall at the beginning of the game and the number of the wall blockers will be increased by 1 whenever the snake gains extra 5 scores.
 
 ## Dependencies for Running Locally
 * cmake >= 3.7
